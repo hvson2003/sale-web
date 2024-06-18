@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+				<link rel="stylesheet" href="./CSS/admin.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div id="logo">
+			<h1>HE COMPUTER</h1>
+		</div>
+		
+		 <section class="container"	>
+			
+		<div class="login">
+			<h1>SALER</h1>
+		</div>
+		
+		
+
+			<form  action="login.php" method="post">
+				<label for="" style="margin-left: 26px; font-size: 14px;">Tên đăng nhập <span>*</span></label>
+				<div class="user" for="username">
+					<i class="fas fa-user fa-inverse"></i>
+					<input type="text" value="saler1" name="username" placeholder="Username" id="username" required>
+				</div>
+				
+				<label style="margin-left: 26px;  font-size: 14px;" for="">Mật khẩu  <span>*</span></label>
+				<label class="password" for="password">
+					<i class="fas fa-lock fa-inverse"></i>
+					<input type="password" value="123456" name="password" placeholder="Password" id="password" required>
+				</label>
+				<label class="show_password">
+					<input type="checkbox" onclick="togglePasswordVisibility()"> Hiển thị mật khẩu
+			</label>
+				<button class="login-btn" type="submit">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					Đăng nhập
+				</button>
+				
+			</form>		
+			
+	</section> 
+	<script>
+    function togglePasswordVisibility() {
+        var passwordInput = document.getElementById("password");
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+        } else {
+            passwordInput.type = "password";
+        }
+    }
+	
+</script>
+
+	</body>
+</html>
