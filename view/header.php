@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/p.png">
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS 
     ========================= -->
@@ -38,6 +40,7 @@
         padding: 12px;
         font-size: 30px;
         color: white;
+        text-align: center;
     }
     .logo a{
         color: white;
@@ -239,6 +242,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-6">
                             <div class="logo">
+                            <i class="bi bi-laptop"></i>
                                 <a href="index.php">HE COMPUTER</a>
                             </div>
                         </div>
@@ -356,6 +360,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="logo">
+                        <i class="bi bi-laptop"></i>
                         <a href="index.php">HE COMPUTER</a>
                     </div>
                 </div>
